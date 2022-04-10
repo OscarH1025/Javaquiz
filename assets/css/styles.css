@@ -1,24 +1,60 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: 22px;
-    background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: white;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: none;
-    color: blueviolet;
-    height: 60px;
-    font-size: 2vw;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: none;
+  color: blueviolet;
+  height: 60px;
+  font-size: 2vw;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.btnHeader {
+  order-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+  border: 0;
+  outline: 0; /* Remove border around button */
+  color: blueviolet;
+  font-family: "Merienda";
+  font-size: 20px;
+}
+
+.btnHeader:hover {
+  background-color: pink;
+}
+
+.btn {
+  border-radius: 12px;
+  border: 0;
+  outline: 0;
+  background-color: purple;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+#mainDiv {
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
 }
